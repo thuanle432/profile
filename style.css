@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.container{
+    width: 750px;
+    height: 900px;
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.container .header{
+    width: 742px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    left: 4px;
+    z-index: 2;
+}
+.container .header .infor{
+    position: absolute;
+    top: 90px;
+    right: 130px;
+}
+
+.container .header .name{
+    text-transform: uppercase;
+}
+.container .header .class{
+    text-transform: capitalize;
+}
+.container .about_me{
+    width: 340px;
+    height: 820px;
+    background-color: rgb(78, 70, 70);
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 4px;
+    position: relative;
+
+}
+.container .about_me .img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 40px;
+    border-radius: 50%;
+}
+.container .about_me .img .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container .about_me .me{
+    width: 280px;
+    height: 600px;
+    position: absolute;
+    top: 220px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.container .future{
+    width: 320px;
+    height: 600px;
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    right: 50px;
+}
+hr{
+    margin-top: 15px;
+}
+h3{
+    margin-top: 15px;
+}
+p{
+    margin-top: 15px;
+}
+ul{
+    margin-top: 10px;
+}
+li{
+    margin-top: 15px;
+}
+.my_life{
+    margin: auto;
+}
